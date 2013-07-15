@@ -41,97 +41,16 @@
 
             <p>Code Samples on GitHub: <a target="_blank" href="https://github.com/tbo/typescript-graphics-sandbox">https://github.com/tbo/typescript-graphics-sandbox</a>
             </p>
-            <footer>&copy; Thomas Bonk 2013, <a href="http://www.cybo.biz">http://www.cybo.biz</a></footer>
+            <footer>&copy; Thomas Bonk 2013</footer>
         </section>
 
         <section>
-            <h3>Development Phases</h3>
+            <h3>Graphic Typescript Combo</h3>
             <ul>
-                <li class="fragment">Technology evaluation</li>
-                <li class="fragment">Architecture definition</li>
-                <li class="fragment">Implementation</li>
+                <li class="fragment">Complex logic requires encapsulation</li>
+                <li class="fragment">Very specific API</li>
+                <li class="fragment"></li>
             </ul>
-        </section>
-
-        <section>
-            <h3>Modern Graphic Technologies</h3>
-            <br/>
-            <table id="comparison">
-                <tr class="fragment">
-                    <th>
-                        SVG
-                    </th>
-                    <th>
-                        Canvas
-                    </th>
-                    <th>
-                        WebGL
-                    </th>
-                </tr>
-                <tr class="fragment">
-                    <td>
-                        Statefull
-                    </td>
-                    <td>
-                        Stateless
-                    </td>
-                    <td>
-                        Stateless
-                    </td>
-                </tr>
-                <tr class="fragment">
-                    <td>
-                        Multiple elements
-                    </td>
-                    <td>
-                        Single element
-                    </td>
-                    <td>
-                        Single element
-                    </td>
-                </tr>
-                <tr class="fragment">
-                    <td>
-                        Script and CSS
-                    </td>
-                    <td>
-                        Script only
-                    </td>
-                    <td>
-                        Script only
-                    </td>
-                </tr>
-                <tr class="fragment">
-                    <td>
-                        Abstracted event handling
-                    </td>
-                    <td>
-                        Granular event handling
-                    </td>
-                    <td>
-                        Granular event handling
-                    </td>
-                </tr>
-                <tr class="fragment">
-                    <td>
-                        Simulated 3D support possible
-                    </td>
-                    <td>
-                        Simulated 3D support possible
-                    </td>
-                    <td>
-                        Full 3D support
-                    </td>
-                </tr>
-
-            </table>
-        </section>
-
-        <section>
-            <h3>Technological Lock-In</h3>
-            <br/>
-            A situation in which a project is dependent on a certain technology or API, unable to use another technology without substantial switching costs.
-            <img src="imgs/squirrel.png" alt="" class="fragment"/>
         </section>
 
         <section>
@@ -139,11 +58,11 @@
             <br/>
             <table id="architecture">
                 <tr class="fragment">
-                    <th colspan="3">Scene Graph</th>
+                    <th colspan="4">Scene</th>
                     <td><pre><code class="javascript">var vehicle:SceneObject = new Car()</code></pre></td>
                 </tr>
                 <tr class="fragment">
-                    <th colspan="3">API Abstraction</th>
+                    <th colspan="4">API Abstraction</th>
                     <td><pre><code class="javascript">var g:Renderer = new WebGLRenderer()
 g.drawRectangle(150, 50, 200, 100)
 g.drawCircle(200, 100, 30)
@@ -153,19 +72,11 @@ g.drawCircle(300, 100, 30)</code></pre></td>
                     <th>SVG</th>
                     <th>Canvas</th>
                     <th>WebGL</th>
+                    <th>Libs</th>
                     <td><pre><code class="javascript">//Implementation specific code</code></pre></td>
                 </tr>
             </table>
         </section>
-
-        <section>
-            <h3>Resources</h3>
-            <ul>
-                <li>How To Choose Between SVG and Canvas: <a target="_blank" href="http://msdn.microsoft.com/en-us/library/ie/gg193983(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/ie/gg193983(v=vs.85).aspx</a></li>
-            </ul>
-        </section>
-
-
     </div>
 
 </div>

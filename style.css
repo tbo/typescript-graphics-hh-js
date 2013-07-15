@@ -82,6 +82,10 @@ table#architecture tr th, table#architecture tr td {
     border-radius: 5px;
 }
 
+table#architecture tr th {
+    font-size: 27px;
+}
+
 code {
     border-radius: 3px;
 }
